@@ -9,7 +9,7 @@ if [ $encontrar -gt 0 ];then
         fi
     done< consumos.txt
     media=$((total/cont))
-    echo "Consumo medio: $media"
+    echo  $media
 else
     read -p "Introduce una ciudad correcta: " valor
     ./atotal.sh $valor
